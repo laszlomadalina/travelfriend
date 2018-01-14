@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel friend</title>
+    <script src="script.js" defer></script>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body onload="loadDoc('table.json',successFunction)">
+  <header class="masthead">
+          <h1>Travel Friend</h1>
+  </header>
+<main class="main">
+  <article class="intro">
+            <p>Nr of registrations: </p>
+            <p id="total-nr">0</p>
+  </article>
+    <div class="table-routes">
+      <table width=100% id = "tableId">
+        <tr>
+            <th> </th>
+            <th>Route Name</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Duration</th>
+            <th>City</th>
+          </tr>
+
+      </table>
+      <br><br><br>
+      <div class="input-data">
+        <form action="/action_page.php" id="formId">
+            <label>Route Name:</label> <input type="text" id="routeNameId"><br>
+            <label>From:</label> <input type="text" id="fromId"><br>
+            <label>To:</label> <input type="text" id="toId"><br>
+            <label>Duration:</label> <input type="text" id="durationId"><br>
+            <label>City:</label> <input type="text" id="cityId"><br>
+            <br><br><br>
+          <div><button type="button" class="button" id="addBtn">Add Route</button></div>
+        </form>
+    </div>
+    </div>
+
+
+  <div class="info-zone">
+      <p id="info-zone-text">Google API Zone</p>
+      <div class="google-maps">
+
+      </div>
+
+  </div>
+
+  <div>
+    <button type="button" class="button" id="delBtn">Delete Route</button>
+  </div>
+  <div>
+    <button type="submit" class="button" id="detailsBtn">See Route</button>
+  </div>
+</main>
+
+</body>
+
+</html>

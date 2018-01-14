@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+		background-image: url("bg-image.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		font-family: "Georgia", serif;
+}
+.masthead {
+    padding: 1em 2em;
+    color: #0033cc;
+}
+.masthead h1 {
+    text-align: center;
+		font-family: "Georgia", serif;
+}
+.intro{
+	padding: 2em 2em;
+	color: #0033cc;
+	font-size: 20px;
+}
+table {
+   border: 2px solid #0033cc;
+	 border-collapse: collapse;
+}
+th{
+	border: 2px solid #0033cc;
+	color: #0033cc;
+}
+td{
+	border: 2px solid #0033cc;
+}
+.button{
+    background-color:#0033cc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 15px;
+    cursor: pointer;
+}
+div.table-routes {
+	width: 40%;
+	float: left;
+	margin-left: 50px;
+}
+.info-zone{
+	float:right;
+	margin-right: 50px;
+  border-color: #0033cc;
+  border-width: medium;
+  border-style: dotted;
+  width: 48%;
+  height: 300px;
+}
+.input-data{
+	float: left;
+	color: #0033cc;
+}
+input{
+	display: inline-block;
+	float:right;
+
+}
+label{
+	line-height: 30px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 250px;
+}
+#info-zone-text{
+  text-align: center;
+  font-style: italic;
+  text-decoration-color: #0033cc;
+}
+.google-maps{
+  position: relative;
+  float: left;
+  
+}
